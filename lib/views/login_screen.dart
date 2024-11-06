@@ -148,7 +148,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: TextFormField(
                       controller: emailController,
                       decoration: InputDecoration(
-                        hintText: 'Email',
+                        hintText: 'eve.holt@reqres.in',
                         contentPadding: EdgeInsets.symmetric(horizontal: 16),
                         border: InputBorder.none,
                       ),
@@ -177,7 +177,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       controller: passwordController,
                       obscureText: !_passwordVisible,
                       decoration: InputDecoration(
-                        hintText: 'Password',
+                        hintText: 'cityslicka',
                         hintStyle: TextStyle(
                             fontSize: 16), // Điều chỉnh kích thước hint nếu cần
                         contentPadding: EdgeInsets.symmetric(horizontal: 16),
